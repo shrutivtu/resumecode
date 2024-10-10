@@ -1,0 +1,342 @@
+main{
+    width:100vw;
+    font-family: 'Roboto';
+}
+
+.sub-heading{
+    color: #46818d;
+}
+.resume-container{
+    width:100%;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-left:1rem;
+    padding-right:1rem;
+    box-sizing: border-box;
+}
+
+.resume-header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.resume-header > div{
+    display: flex;
+    flex-direction: column;
+}
+
+.info-section-top{
+    display: flex;
+    justify-content: center;
+}
+
+.info-section-bottom{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+}
+
+.resume-header > h1{
+    /* font-family: "Noto Sans","Helvetica Neue","Helvetica","Arial","Liberation Sans","Roboto","Noto",sans-serif; */
+    /* font-weight: inherit; */
+    font-size: 2.25rem;
+    line-height: 1.25;
+    /* color: #2d2d2d; */
+    color: #46818d;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.resume-header_left{
+    padding-right: 0.5rem;
+    width:auto;
+    height:1rem;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    text-align: center;
+    border-right:1px solid black;
+}
+
+.resume-header_middle{
+    width:auto;
+    height:1rem;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    text-align: center;
+    border-right:1px solid black;
+}
+
+.resume-header_right{
+    width:auto;
+    height:1rem;
+    /* background-color: bisque; */
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    padding-left: 0.5rem;
+    text-align: center;
+}
+
+.resume-summary{
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    justify-content: flex-start;
+    width:100%;
+}
+
+.resume-summary_top{
+    background-color: #37474f;
+    height: 3.3rem;
+    margin-top: 1rem;
+    padding-left: 1rem;
+    vertical-align: middle;
+    /* margin-bottom: 1rem; */
+    border-radius: 0.5rem;
+}
+
+.resume-summary_top2{
+    border-bottom: 1px solid #e4e2e0;
+}
+
+.resume-summary_top2 > h2{
+    font-size: 1.5rem;
+    line-height: 1;
+    color: #2d2d2d;
+    /* color:#fff; */
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.resume-summary > p{
+    font-size:1rem;
+}
+
+.resume-experience{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width:100%;
+    margin-top:-12px;
+}
+
+.resume-experience_top{
+    border-bottom: 1px solid #e4e2e0;
+}
+
+.resume-experience_top h2{
+    /* color: #2d2d2d; */
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    line-height: 1;
+}
+
+.resume-experience_main{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 0.5rem;
+}
+
+.resume-experience_main div{
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+.resume-experience_main div > h3{
+    margin-bottom: 0;
+}
+
+.resume-experience_main div > h4{
+    margin-top: 4px;
+    margin-bottom: 0;
+    color: #5A5A5A;
+}
+
+.resume-experience_main ul{
+    margin-top: 0.5rem;
+}
+
+.resume-experience_main ul li{
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #2d2d2d;
+}
+
+.resume-experience_main ul li::marker{
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+    text-indent: 0px !important;
+    text-align: start !important;
+    text-align-last: start !important;
+}
+
+.second{
+    margin-top:-22px;
+}
+
+.resume-projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width:100%;
+    margin-top:-12px;
+}
+
+.resume-projects_top{
+    border-bottom: 1px solid #e4e2e0;
+}
+
+.resume-projects_top h2{
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    line-height: 1;
+}
+
+.resume-projects_main h3{
+    margin-top:1rem;
+    margin-bottom: 0;
+}
+
+.resume-projects_main ul{
+    margin-top: 0.5rem;
+}
+
+.resume-projects_main ul li{
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #2d2d2d;
+}
+
+.resume-skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width:100%;
+    margin-top: -5px;
+}
+
+.resume-skills_top{
+    border-bottom: 1px solid #e4e2e0;
+}
+
+.resume-skills_top h2{
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    line-height: 1;
+}
+
+.resume-skills ul{
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.resume-skills ul li{
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #2d2d2d;
+    list-style-type: none;
+}
+
+.resume-skills ul li > span{
+    font-weight: 900;
+}
+
+.resume-skills_desc{
+    margin-left: 0.5rem;
+}
+
+.resume-education{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width:100%;
+    margin-top: -12px;
+}
+
+.resume-education_top{
+    border-bottom: 1px solid #e4e2e0;
+    display: flex;
+}
+
+.resume-education_top h2{
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    line-height: 1;
+}
+
+.resume-education_main{
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+.resume-education_main h3{
+    margin-top:0.5rem;
+    margin-bottom: 0.1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #2d2d2d;
+}
+
+.resume-education_main span{
+    margin-top: 0rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #5A5A5A;
+}
+
+.resume-language{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width:100%;
+    margin-top: -12px;
+}
+
+.resume-language_top{
+    border-bottom: 1px solid #e4e2e0;
+}
+
+.resume-language_top h2{
+    color: #2d2d2d;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    line-height: 1;
+}
+
+.resume-language > ul{
+    margin-top: 0.5rem;
+    padding-left:0rem;
+}
+
+.resume-language > ul li{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:0.25rem;
+}
+
+.resume-language .languages{
+    margin-top: 0.5rem;
+    display: flex;
+}
+
+.resume-language .languages > div{
+    margin-right: 1rem;
+}
+
+.gold-star{
+    color: goldenrod;
+}
